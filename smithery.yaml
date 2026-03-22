@@ -17,7 +17,7 @@ startCommand:
   commandFunction: |
     (config) => ({
       command: 'npx',
-      args: ['-y', 'tradernet-mcp'],
+      args: ['-y', 'tradernet-mcp@1.1.2'],
       env: {
         TRADERNET_PUBLIC_KEY: config.publicKey,
         TRADERNET_PRIVATE_KEY: config.privateKey
